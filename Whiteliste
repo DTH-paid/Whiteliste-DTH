@@ -33,7 +33,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DTH-paid/DTH-Script/r
         -- Mensaje al jugador
         game.StarterGui:SetCore("SendNotification", {
             Title = "Acceso denegado",
-            Text = "Tu cuenta no está en la whitelist.",
+            Text = "Tu cuenta no está en la whiteliste, pinche putita, te acabo de sacar ip por no estar en la whiteliste.",
             Duration = 5
         })
     end
